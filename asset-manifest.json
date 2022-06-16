@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/water-drop/static/css/main.5be030bd.css",
+    "main.js": "/water-drop/static/js/main.30050e42.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/water-drop/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/CustomerBg.png": "/water-drop/static/media/CustomerBg.efe8fca65e6cb95989f8.png",
+    "static/media/fontawesome-webfont.eot": "/water-drop/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/water-drop/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/FooterBottom.png": "/water-drop/static/media/FooterBottom.79dbb974f06d730db3df.png",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/water-drop/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/water-drop/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/Main Logo 2.svg": "/water-drop/static/media/Main Logo 2.844c9efd0e59525dff74.svg",
+    "static/media/contact.png": "/water-drop/static/media/contact.6749a2be6182bcf65c59.png",
+    "static/media/WaterDropBg.png": "/water-drop/static/media/WaterDropBg.6a00dc64689784411843.png",
+    "static/media/Testimonial-bg.svg": "/water-drop/static/media/Testimonial-bg.a933681be65c67bcbde3.svg",
+    "index.html": "/water-drop/index.html",
+    "main.5be030bd.css.map": "/water-drop/static/css/main.5be030bd.css.map",
+    "main.30050e42.js.map": "/water-drop/static/js/main.30050e42.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5be030bd.css",
+    "static/js/main.30050e42.js"
+  ]
+}
