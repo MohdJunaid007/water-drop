@@ -1,0 +1,120 @@
+.main-footer-span {
+  background: linear-gradient(266.95deg, rgba(0, 107, 255, 0.6) 11.51%, rgba(0, 107, 255, 0.144) 66.4%);
+}
+.main-footer {
+  max-width: 1500px;
+  margin: auto;
+  color: white;
+  position: relative;
+  bottom: 0;
+  padding-top: 1rem;
+  width: 100%;
+  height: auto;
+  /* background: rgba(0, 107, 255, 0.14); */
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 2fr 1.2fr;
+}
+
+.footer-social-links i {
+  border-radius: 30px;
+}
+
+.footer-social-links i {
+  font-size: larger;
+}
+
+.footer-social-links button {
+  padding: 17px;
+}
+
+.facebook i,
+.youtube i,
+.instagram i,
+.linkedin i {
+  line-height: 0;
+}
+
+.facebook,
+.youtube,
+.instagram,
+.linkedin {
+  background-color: white;
+  transition: ease 0.2s all;
+}
+
+.youtube:hover,
+.instagram:hover,
+.linkedin:hover,
+.facebook:hover {
+  opacity: 0.7;
+}
+
+.facebook {
+  color: #3b5898;
+}
+
+.youtube {
+  color: #FF0000;
+}
+
+.instagram {
+  color:  #e95950;
+}
+
+.linkedin {
+  color: #0077b5;
+}
+
+.footer-contact {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.footer-contact-data {
+  display: block;
+}
+.footer-contact-data a {
+  margin: 5px;
+  padding: 12px 16px;
+  background-color: rgba(0, 107, 255, 0.7);
+  border-radius: 50%;
+}
+
+.main-footer .get-in-touch-element {
+  background: rgba(0, 107, 255, 0.62);
+  opacity: 0.8;
+  padding: 20px;
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+}
+
+.main-footer .get-in-touch-element-second {
+  height: 220px;
+  /* margin-left: -35px; */
+
+  margin-top: 21px;
+}
+
+.main-footer .get-in-touch-element-first {
+  height: 150px !important;
+  margin-right: -30px;
+  margin-top: 0;
+}
+
+.copiright {
+  background: url("./../Images/FooterBottom.png");
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-attachment: scroll !important;
+  background-position: 50% !important;
+  background-repeat: no-repeat !important;
+  padding-top: 10%;
+  padding-bottom: 10px;
+}
+
+.footer-logo img {
+  width: clamp(8rem, -9.7778rem + 27.7778vw, 18rem);
+  margin: auto !important;
+}

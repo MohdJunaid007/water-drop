@@ -1,0 +1,158 @@
+.Contact-us-main-span {
+  margin: auto;
+  max-width: 1500px;
+}
+.Contact-us-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 105.47%;
+  text-align: center;
+  color: #006bff;
+  border-radius: 5.82726px;
+}
+
+.Contact-us-content {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+}
+.Contact-us-img {
+  margin: auto;
+}
+.Contact-us-img img {
+  height: 30rem;
+}
+
+.Contact-us-form {
+  /* background-color: #006bff; */
+  background: linear-gradient(
+    90deg,
+    rgba(0, 107, 255, 0.53) 0%,
+    rgba(0, 107, 255, 0.6) 100%
+  );
+}
+.Contact-us-form form {
+  grid-gap: 5%;
+}
+
+.form-group textarea,
+.Contact-us-form input {
+  border-bottom: 2px solid white;
+}
+
+.Contact-us-form form {
+  display: grid;
+}
+
+.Contact-us-form form label {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  /* text-align: center; */
+  width: 90%;
+  margin: auto;
+}
+
+.form-submit-button{
+  width: fit-content;
+  margin-left: 5%;
+}
+
+.form-group textarea,
+.form-group input {
+  background: transparent;
+  width: 100%;
+  color: white !important;
+  resize: none;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: white;
+}
+
+.form-group textarea:focus,
+.form-group input:focus {
+  outline: none !important;
+}
+
+.submit-button {
+  color: #006bff;
+  font-weight: 500;
+  background: white;
+  width: fit-content;
+}
+
+.style-box {
+  width: 165px;
+  height: 200px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 107, 255, 0.53) 0%,
+    rgba(0, 107, 255, 0.6) 100%
+  );
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  margin-left: -165px;
+  position: absolute;
+  z-index: 100 !important;
+}
+
+.Contact-us-sub-title::after {
+  content: "";
+  border-bottom: 15px solid #006bff;
+  width: 8%;
+  display: block;
+  text-align: center;
+  margin: 2% auto 2.8%;
+}
+Contact-us-title p {
+  margin: 2%;
+}
+
+.Contact-us-form form  button {
+  transition: ease all 0.2s;
+}
+
+.submit-button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 107, 255, 0.53) 0%,
+    rgba(0, 107, 255, 0.6) 100%
+  );
+  color: white;
+}
+
+.Contact-us-form form label input:active,
+.Contact-us-form form label input:focus {
+  background: transparent;
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder {
+  color: transparent;
+}
+
+@media only screen and (max-width: 1024px) {
+  .style-box {
+    display: none;
+  }
+
+  .Contact-us-img img {
+    height: 25rem;
+  }
+}
+@media only screen and (max-width: 850px) {
+  
+}
+
+@media only screen and (max-width: 620px) {
+ 
+}
+
+@media only screen and (max-width: 550px) {
+  
+}

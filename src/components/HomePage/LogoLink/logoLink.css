@@ -1,0 +1,15 @@
+.logoLink img {
+    display: none;
+}
+@media only screen and (max-width: 766px) {
+    .logoLink img {
+        display: block;
+        width: clamp(8rem, 2.0807rem + 29.5964vw, 16.25rem);
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        cursor: pointer;
+    }
+}

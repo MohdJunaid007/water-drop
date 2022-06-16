@@ -1,0 +1,48 @@
+.brief-overview-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.brief-overview-main {
+    margin: clamp(1rem, 0.0896rem + 4.5519vw, 3rem) 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    flex: 1 1 auto;
+
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+}
+.brief-overview {
+    padding: 0 clamp(0.5rem, -2.0056rem + 12.528vw, 4rem);
+    grid-column: span 2;
+}
+
+.brief-overview:last-child:nth-child(2n-1) {
+    grid-column-end: -2;
+}
+
+
+.brief-overview-img {
+    width: clamp(3.125rem, 1.7025rem + 7.1124vw, 6.25rem);
+    margin: clamp(0.5rem, 0.2724rem + 1.138vw, 1rem) auto;
+}
+
+.brief-overview-title {
+    font-size: clamp(0.625rem, 0.2267rem + 2.1159vw, 1.5rem);
+    margin: clamp(0.3rem, 0.1179rem + 0.9104vw, 0.7rem) auto;
+}
+
+.brief-overview-content {
+    font-size: clamp(0.5rem, 0.2155rem + 1.5114vw, 1.125rem);
+    /* width: 20rem; */
+    opacity: 0.7;
+}
+
+@media only screen and (min-width: 1024px) {
+    .brief-overview-main {
+        display: none;
+    }
+}

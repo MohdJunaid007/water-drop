@@ -1,0 +1,638 @@
+.App {
+  /* max-width: 1500px;
+    margin: auto; */
+}
+
+.testimonial-heading-content {
+  padding: 0 clamp(2rem, -1.25rem + 16.25vw, 15rem) !important;
+}
+
+@media only screen and (min-width: 766px) {
+  .testimonial-main {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+@media only screen and (max-width: 1289px) {
+  .testimonial-box-content {
+    min-height: 125px;
+  }
+
+  .testimonial-box-content {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  /* Navbar */
+
+  .main-logo {
+    min-width: 100px !important;
+  }
+  /* Image-Slider */
+
+  .ImageSlider-main {
+    height: auto !important;
+  }
+  .slider-image {
+    display: none;
+  }
+
+  .ImageSlider-main-contnet {
+    text-align: center;
+  }
+
+  .ImageSlider-main-contnet-subtitle p {
+    margin: 0;
+    margin-right: 0 !important;
+  }
+
+  /* HandIndiwater */
+
+  /* Testimonials */
+  /* Contact US */
+
+  /* Footer */
+
+  .footer-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .footer-social-links h4 {
+    font-size: 1.5rem !important;
+    text-align: center !important;
+  }
+
+  .footer-social-links {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+  }
+  .footer-social-links ul {
+    justify-content: center !important;
+  }
+
+  .footer-social-links i {
+    font-size: clamp(1rem, 0.5448rem + 2.276vw, 2rem) !important;
+  }
+
+  .footer-social-links button {
+    padding: clamp(0.75rem, 0.3799rem + 1.8504vw, 1.563rem) !important;
+  }
+
+  .footer-social-links > div > ul > li {
+    margin: clamp(0.2rem, 0.0407rem + 0.7966vw, 0.55rem) !important;
+  }
+
+  .footer-social-links img {
+    margin: auto !important;
+    max-width: 115% !important;
+    width: 70% !important;
+  }
+
+  .footer-contact {
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .footer-contact-data {
+    display: block !important;
+  }
+  .footer-contact-data > div {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 1rem !important;
+  }
+  .footer-logo {
+    margin: clamp(2rem, -0.276rem + 11.3798vw, 7rem) auto !important;
+  }
+
+  .footer-contact-data {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+  .footer-logo img {
+    width: clamp(6rem, 2.3585rem + 18.2077vw, 14rem) !important;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .App {
+    overflow-x: hidden;
+  }
+
+  /* Navbar */
+  /* Image-Slider */
+  /* HandIndiwater */
+  /* Testimonials */
+  .customer-user-manual-sub-title::after,
+  .testimonial-heading-sub-title::after,
+  .Contact-us-sub-title::after {
+    width: 10% !important;
+    border-bottom: 12px solid #006bff !important;
+  }
+  /* Contact US */
+
+  .Contact-us-content {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .Contact-us-sub-title {
+    font-size: 2.5rem !important;
+  }
+  .Contact-us-content {
+    grid-template-columns: 1fr !important;
+    margin-top: -10rem !important;
+  }
+
+  .Contact-us-form {
+    padding-bottom: 5rem !important;
+    padding-top: 12rem !important;
+  }
+
+  .style-box {
+    display: block !important;
+    background: url("./components/Images/contact.png") !important;
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  .Contact-us-img {
+    height: 0% !important;
+    z-index: 100 !important;
+  }
+
+  /* Footer */
+
+  .footer-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .main-footer .get-in-touch-element-first {
+    height: 120px !important;
+  }
+
+  .main-footer .get-in-touch-element-second {
+    height: 180px !important;
+  }
+
+  .get-in-touch-element-content {
+    font-size: 0.75rem !important;
+    line-height: 1rem !important;
+  }
+  .footer-social-links {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+  }
+  .footer-social-links ul {
+    justify-content: center !important;
+  }
+
+  .footer-social-links h4 {
+    font-size: 1.5rem !important;
+    text-align: center !important;
+  }
+
+  .footer-social-links img {
+    margin: auto !important;
+    max-width: 115% !important;
+    width: 70% !important;
+  }
+
+  .footer-have-a-question,
+  .footer-contact-us {
+    margin-bottom: 2rem !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1224px) {
+  .ImageSlider-main-contnet-subtitle {
+    font-size: 1.5rem !important;
+  }
+}
+@media only screen and (min-width: 766px) and (max-width: 1023px) {
+  .ImageSlider-main-contnet-title {
+    /* margin: auto !important; */
+    margin: 4rem !important;
+  }
+}
+@media only screen and (max-width: 766px) {
+  /* Navbar */
+  .main-logo {
+    min-width: clamp(3.5rem, 1.5313rem + 9.8434vw, 6.25rem) !important;
+    height: clamp(2.5rem, 1.6051rem + 4.4743vw, 3.75rem) !important;
+  }
+
+  .navbar-button {
+    border-bottom: 0px !important;
+  }
+  .open-close-icon {
+    margin-right: 0.5rem !important;
+    font-size: clamp(1.3rem, 0.7989rem + 2.5056vw, 2rem) !important;
+  }
+  .navbar {
+    background-color: rgba(243, 250, 252, 1);
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  nav {
+    background-color: rgba(243, 250, 252, 1);
+  }
+  .navbar-button p {
+    padding: 2% 8% !important;
+    border-radius: 30px !important;
+    display: inline-block;
+    font-weight: bold;
+    transition: ease all 0.5s;
+  }
+
+  .navbar-button p:hover {
+    background: rgba(0, 107, 255, 0.67);
+    color: white;
+  }
+
+  /* Image-Slider */
+
+  .ImageSlider-main {
+    height: inherit;
+  }
+  .ImageSlider-main-contnet > .ImageSlider-main-contnet-title {
+    grid-row: 2;
+    margin-left: 0;
+  }
+  .ImageSlider-main-contnet > .slider-image {
+    grid-row: 1;
+  }
+
+  .ImageSlider-main-contnet {
+    text-align: center;
+  }
+  .slider-image {
+    display: block;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .ImageSlider-main-contnet-subtitle p {
+    margin-right: 0 !important;
+    font-size: 2rem;
+  }
+
+  /* HandIndiwater */
+
+  .HandIndiWater-main {
+    grid-template-columns: 1fr !important;
+    background-color: rgba(196, 196, 196, 0.1);
+    padding: 0 !important;
+    margin: 2rem 0rem !important;
+  }
+  .HandIndiWater-img-container {
+    display: none !important;
+  }
+  .HandIndiWater-content-container {
+    padding: clamp(1rem, -1.87rem + 14.3498vw, 5rem) clamp(3rem, 1.565rem + 7.1749vw, 5rem) !important;
+    margin: 0 0rem !important;
+    font-size: clamp(0.55rem, -0.024rem + 2.87vw, 1.35rem) !important;
+    background: url("./components/Images/WaterDropBg.png");
+    background-attachment: scroll !important;
+    background-position: 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+  }
+
+  /* Testimonials */
+  .customer-user-manual-heading-content p,
+  .testimonial-heading-content p {
+    font-size: 0.8rem !important;
+  }
+
+  .testimonial-box-content {
+    font-size: 0.7rem !important;
+    /* min-height: 117px !important; */
+  }
+
+  /* Contact US */
+  /* Footer */
+}
+
+@media only screen and (max-width: 640px) {
+}
+
+@media only screen and (max-width: 620px) {
+  /* Navbar */
+  /* Image-Slider */
+  .ImageSlider-main-contnet-subtitle p {
+    font-size: 1.7rem;
+  }
+  .ImageSlider-main-contnet-button {
+    font-size: 0.8rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    padding: 35px !important;
+    padding-top: 35px !important;
+    padding-bottom: 35px !important;
+  }
+
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 30px !important;
+  }
+
+  .swiper-button-next::after {
+    margin-left: -25px;
+  }
+
+  .swiper-button-prev::after {
+    margin-left: 25px;
+  }
+  /* HandIndiwater */
+  /* Testimonials */
+
+  .testimonial-heading-title,
+  .Contact-us-title {
+    font-size: 1rem !important;
+  }
+
+  .testimonial-heading-sub-title {
+    font-size: 2.5rem !important;
+  }
+  .customer-user-manual-sub-title::after,
+  .testimonial-heading-sub-title::after,
+  .Contact-us-sub-title::after {
+    width: 15% !important;
+    border-bottom: 10px solid #006bff !important;
+  }
+  .customer-user-manual-heading-content,
+  .testimonial-heading-content {
+    font-size: 0.6rem;
+  }
+
+  .customer-user-manual-heading-content,
+  .testimonial-heading-content {
+    margin-bottom: 0rem !important;
+  }
+  /* Contact US */
+
+  .Contact-us-content {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .Contact-us-sub-title {
+    font-size: 1.9rem !important;
+  }
+
+  .style-box {
+    display: none;
+  }
+
+  .Contact-us-content {
+    grid-template-columns: 1fr;
+  }
+
+  .Contact-us-img {
+    height: 0%;
+    z-index: 100;
+  }
+
+  /* Footer */
+
+  .footer-contact-data {
+    /* display: block !important; */
+  }
+  .footer-contact-data a {
+    margin: 9px;
+    padding: 7px 10px;
+  }
+
+  .footer-contact-data > div {
+    padding: 0.5rem !important;
+  }
+
+  .footer-have-a-question,
+  .footer-contact-us {
+    margin-bottom: 2rem !important;
+  }
+  .footer-contact-data {
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer-contact-data h2 {
+    font-size: 0.9rem !important;
+  }
+}
+@media only screen and (max-width: 470px) {
+  /* Navbar */
+  /* Image-Slider */
+  .ImageSlider-main-contnet-subtitle p {
+    font-size: 1.3rem;
+  }
+
+  .ImageSlider-main-contnet-title p {
+    font-size: 1.2rem;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    padding: 30px !important;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 25px !important;
+  }
+
+  .swiper-button-next::after {
+    margin-left: -25px;
+  }
+
+  .swiper-button-prev::after {
+    margin-left: 25px;
+  }
+
+  /* HandIndiwater */
+
+  /* Testimonials */
+
+  .testimonial-box-content {
+    font-size: 0.65rem !important;
+    min-height: 140px !important;
+  }
+
+  .testimonial-heading-title,
+  .Contact-us-title {
+    font-size: 0.8rem !important;
+  }
+
+  .testimonial-heading-sub-title {
+    font-size: 2rem !important;
+  }
+  .customer-user-manual-sub-title::after,
+  .testimonial-heading-sub-title::after,
+  .Contact-us-sub-title::after {
+    width: 19% !important;
+    border-bottom: 8px solid #006bff !important;
+  }
+  .customer-user-manual-heading-content p,
+  .testimonial-heading-content p {
+    font-size: 0.55rem !important;
+  }
+  /* Contact US */
+
+  .Contact-us-sub-title {
+    font-size: 1.3rem !important;
+  }
+
+  .Contact-us-content {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .Contact-us-img {
+    height: 0%;
+    z-index: 100;
+  }
+
+  .Contact-us-form {
+    padding-bottom: 5rem !important;
+    padding-top: 12rem !important;
+  }
+  .Contact-us-img img {
+    height: 20rem !important;
+  }
+
+  /* Footer */
+
+  .footer-contact-data a {
+    margin: 7px !important;
+    padding: 9px 12px !important;
+  }
+  .footer-contact-data h6 {
+    font-size: 0.675rem !important;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .testimonial-box-content {
+    font-size: 0.55rem !important;
+    min-height: 120px !important;
+  }
+
+  .testimonial-box-profile img {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    width: 30%;
+  }
+  .testimonial-box-profile-social-media {
+    font-size: 0.7rem !important;
+    margin-top: 0.3rem !important;
+    /* margin-bottom: 0.3rem; */
+    padding-bottom: 0 !important;
+  }
+
+  .testimonial-heading-title,
+  .Contact-us-title {
+    font-size: 0.5rem !important;
+    padding: 0.8rem !important;
+  }
+
+  .testimonial-heading-sub-title {
+    font-size: 1.3rem !important;
+  }
+  .customer-user-manual-sub-title::after,
+  .testimonial-heading-sub-title::after,
+  .Contact-us-sub-title::after {
+    width: 19% !important;
+    border-bottom: 6px solid #006bff !important;
+  }
+  .customer-user-manual-heading-content p,
+  .testimonial-heading-content p {
+    font-size: 0.4rem !important;
+  }
+  .footer-contact {
+    margin: 1rem;
+  }
+
+  .footer-contact-data > div {
+    padding: 0.1rem !important;
+  }
+  .footer-contact-data h6 {
+    font-size: 0.475rem !important;
+    line-height: 1rem !important;
+  }
+  .footer-contact-data h2 {
+    font-size: 0.7rem !important;
+    line-height: 1rem !important;
+  }
+  .footer-have-a-question > button,
+  .footer-contact-us > button {
+    padding: 0.1rem !important;
+    font-size: 0.7rem;
+    height: 25px;
+    margin: 0px !important;
+    padding: 5px 8px !important;
+    margin-top: auto !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  /* Navbar */
+  /* Image-Slider */
+
+  .ImageSlider-btn {
+    font-size: 0.7rem;
+  }
+  /* HandIndiwater */
+
+  /* Testimonials */
+
+  .customer-user-manual-heading-content p,
+  .testimonial-heading-content p {
+    font-size: 0.8rem !important;
+  }
+
+  .customer-user-manual-sub-title::after,
+  .testimonial-heading-sub-title::after,
+  .Contact-us-sub-title::after {
+    width: 18% !important;
+  }
+
+  .testimonial-box-content {
+    min-height: 100px !important;
+  }
+
+  .testimonial-box-content p {
+    font-size: 0.45rem !important;
+  }
+
+  .testimonial-box-profile img {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    width: 30%;
+  }
+  .testimonial-box-profile-social-media {
+    font-size: 0.7rem !important;
+    margin-top: 0.3rem !important;
+    /* margin-bottom: 0.3rem; */
+    padding-bottom: 0 !important;
+  }
+  /* Contact US */
+
+  .Contact-us-sub-title {
+    font-size: 0.7rem !important;
+  }
+  /* Footer */
+}
+p.steps-heading::before {
+  content: ",";
+  opacity: 0;
+}
+
+p.steps-heading ~ p.steps-heading:before {
+  opacity: 1;
+  margin-right: clamp(0.2rem, 0rem + 1vw, 1rem);
+}

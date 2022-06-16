@@ -1,0 +1,17 @@
+.logoLink-with-main {
+}
+
+.logoLink-with-sub {
+}
+.logoWithLink img {
+    display: none;
+}
+@media only screen and (max-width: 1024px) {
+    .logoWithLink img {
+        display: block;
+        cursor: pointer;
+        width: clamp(14.25rem, 5.1020rem + 45.7399vw, 27rem);
+        text-align: center;
+        margin: auto;
+    }
+}

@@ -1,0 +1,56 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  /* padding: 0 0 0 clamp(0rem, -2.0984rem + 4.3716vw, 2rem); */
+  z-index: 200;
+  background: white;
+}
+
+.navbar-main {
+  max-width: 1500px;
+  width: 100%;
+  margin: auto;
+  padding: 0 clamp(0rem, -1.8095rem + 3.8095vw, 2rem);
+}
+
+.navbar-buttons {
+  display: flex;
+}
+
+.navbar-button {
+  cursor: pointer;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 105.47%;
+}
+.main-logo {
+  background: url("./../Images/Main Logo 2.svg");
+  background-repeat: no-repeat;
+  background-size: contain !important;
+  background-attachment: scroll !important;
+  background-position: 50% !important;
+  background-repeat: no-repeat !important;
+  min-width: 110px;
+  height: 75px;
+}
+.open-close-icon {
+  color: rgba(0, 107, 255, 1) !important;
+}
+.navbar-button:hover {
+  border-bottom: 2px Solid rgba(0, 107, 255, 1);
+  padding-bottom: 0.2rem;
+}
+
+.humburger-btn {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.active-link {
+  border: 3px solid black;
+}
+
+@media only screen and (max-width: 768px) {
+}

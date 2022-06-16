@@ -1,0 +1,20 @@
+.CustomerWaterDrop-main {
+  max-width: 1500px;
+  margin: auto;
+}
+
+.CustomerWaterDrop-img {
+  margin: 5rem auto;
+}
+
+.CustomerWaterDrop-img img {
+  width: clamp(18rem, 1.1864rem + 84.0678vw, 80rem);
+  margin: auto;
+  cursor: s;
+}
+
+@media only screen and (max-width: 1023px) {
+  .CustomerWaterDrop-main-span {
+    display: none;
+  }
+}

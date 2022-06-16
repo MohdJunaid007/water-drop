@@ -1,0 +1,54 @@
+.user-manual-span {
+    max-width: 1500px;
+    margin: auto;
+}
+
+.user-manual-main {
+    padding-top: 0.25rem;
+}
+
+.user-manual-heading-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: clamp(0.5rem, 0.3373rem + 0.8136vw, 1.1rem);
+    line-height: 105.47%;
+    text-align: center;
+    color: #006bff;
+    border-radius: 5.82726px;
+    margin: clamp(0.688rem, 0.2644rem + 2.118vw, 2.25rem) 0;
+}
+
+.user-manual-sub-title {
+    font-size: clamp(1rem, 0.4576rem + 2.7119vw, 3rem);
+}
+
+.user-manual-sub-title::after {
+    content: "";
+    border-bottom: clamp(0.3rem, 0.15rem + 0.75vw, 0.9rem) solid #006bff;
+    width: clamp(2rem, 0.25rem + 8.75vw, 9rem);
+    display: block;
+    text-align: center;
+    margin: 2% auto 0.8%;
+}
+
+.user-manual-heading-content {
+    color: rgba(92, 92, 92, 1);
+}
+
+.user-manual-heading-content p {
+    font-size: clamp(0.5rem, 0.25rem + 1.25vw, 1.5rem);
+    /* font-size: clamp(0.5rem, -0.3750rem + 4.3750vw, 4rem); */
+    margin-bottom: 2rem;
+}
+
+.user-manual-main-content > div:last-child > .user-manual-list > .user-manual-list-auth {
+    border-bottom: none ;
+    margin-bottom: 1.75rem;
+    
+}
+
+.user-manual-main-content > div:last-child > .user-manual-details > .user-manual-auth {
+    margin-bottom: 5rem;
+    
+}

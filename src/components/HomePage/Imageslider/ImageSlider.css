@@ -1,0 +1,141 @@
+.ImageSlider-main-span {
+  background-color: rgba(0, 107, 255, 0.04);
+  /* padding-top: 4.7rem; */
+}
+.ImageSlider-main {
+  height: 30rem;
+  max-width: 1500px;
+  margin: auto;
+}
+.ImageSlider-banner {
+  display: grid;
+  height: inherit;
+}
+.ImageSlider-main-contnet-title {
+  margin-left: 70px;
+}
+.ImageSlider-main-contnet {
+  /* grid-template-columns: 1fr 1fr; */
+  /* display: none; */
+  /* opacity: 0; */
+  transition: all 2s ease-in-out;
+}
+
+.ImageSlider-btn {
+  color: rgba(0, 107, 255, 1);
+  font-weight: 600;
+}
+
+.ImageSlider-btn span {
+  padding: 5px 8px;
+  border-radius: 50%;
+  background-color: rgba(203, 227, 255, 1);
+}
+
+
+.active-anim {
+  display: grid;
+  opacity: 1;
+}
+
+.slider-content div {
+  margin: 20px 0px;
+}
+
+.left-navigation,
+.right-navigation {
+  margin: 0%;
+  margin: auto;
+  padding: 0;
+  cursor: pointer;
+}
+
+.left-navigation i {
+  margin-left: -6px;
+  color: white;
+}
+
+.right-navigation i {
+  margin-right: -6px;
+  color: white;
+}
+
+.left-navigation {
+  margin-left: 0;
+}
+
+.left-navigation div {
+  background-color: #9fd0f8;
+  padding: 9px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.right-navigation div {
+  background-color: #9fd0f8;
+  padding: 9px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.right-navigation {
+  margin-right: 0;
+}
+
+/* .container-dots {
+ display: flex;
+ margin: auto;
+ text-align: center;
+}
+.dot {
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #181515;
+  margin: 0 5px;
+}
+.dot.active {
+  background: rgb(32, 32, 32);
+} */
+
+.ImageSlider-main-contnet-subtitle p {
+  margin-right: 10%;
+}
+.slider-image img {
+  height: fit-content;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: rgba(159, 208, 248, 1);
+  padding: 35px;
+  padding-top: 40px;
+  margin: -45px;
+  padding-bottom: 40px;
+  border-radius: 50%;
+}
+
+.swiper-button-prev {
+  padding-left: 50px;
+}
+.swiper-button-next {
+  padding-right: 50px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: white;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 1024px) {
+  
+}
+@media only screen and (max-width: 720px) {
+  
+}
+
+@media only screen and (max-width: 550px) {
+
+}
